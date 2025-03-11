@@ -8,5 +8,5 @@ map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
-map({"n", "i", "v"}, "<leader>e", "<cmd>Neotree toggle<CR>", { desc = "neotree focus window" })
+map({"n", "v"}, "<leader>e", "<cmd>Neotree toggle<CR>", { desc = "neotree toggle" })
 
