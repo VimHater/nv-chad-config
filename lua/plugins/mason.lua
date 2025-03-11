@@ -17,7 +17,7 @@ return {
   },
   {
     "williamboman/mason-lspconfig.nvim",
-    ensure_installed = { "lua_ls", "rust_analyzer", "clangd", "neomake", "python-lsp-server" },
+    ensure_installed = { "lua_ls", "rust_analyzer", "clangd", "neomakelsp", "pyright" },
   },
   {
     "neovim/nvim-lspconfig",
